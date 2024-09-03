@@ -1,0 +1,132 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+
+
+body{
+    font-family: "Inter", sans-serif;
+    margin: 150px;
+    margin-top: 50px;
+    margin-right: 0px;
+}
+
+.menu{
+    display: flex; 
+    height: 30px;
+    padding-bottom: 40px;
+}
+ul{
+    display: flex;
+    gap: 30px;
+    margin-left: 475px;
+    font-size: small;
+    list-style-type: none;
+       
+}
+a{
+    text-decoration: none;
+    color: hsl(236, 13%, 42%);
+}
+
+.img-1{
+    width: 600px;
+    height: 250px;
+}
+.class{
+    display: flex;
+    padding-bottom: 50px;
+}
+.intro{
+    display: flex;
+}
+.box-2{
+    margin-left: 30px;
+    width: 300px;
+    background-color: hsl(240, 100%, 5%);
+    padding: 20px;
+}
+.box-1{
+    width:600px ; 
+    height: 400px;  
+    
+
+}
+.enter{
+    margin-left: 0px;
+    width: 200px;
+
+}
+.note-1{
+    font-size: small;
+    color: hsl(236, 13%, 42%);
+    width: 300px;   
+}
+.new{
+    color: hsl(35, 77%, 62%);
+}
+.web-3{
+    font-size: 40px;
+    margin-top: 10px;
+    height:300px ;
+    width: 300px;   
+    color: hsl(240, 100%, 5%);
+}
+.read-more{
+    width: 150px;
+    height: 35px;
+    font-weight: bold;
+    background-color: hsl(5, 85%, 63%);
+    border: none;
+    
+}
+span{
+    margin-left: 5px;
+}
+
+.note{
+    font-size: small;
+    color: hsl(236, 13%, 42%);
+}
+.list-1{
+    display: flex;  
+    
+    
+     
+}
+.first{
+    display: flex;
+}
+.second{
+    display: flex;
+    margin-left: 30px;
+}
+.third{
+    display: flex;
+    margin-left: 65px;
+}
+.img-2{
+    width: 100px;
+    height: 110px;
+}
+.info{
+    margin-left: 20px;
+    margin-top: -20px;
+}
+.web-4{
+    font-size: small;
+    color: hsl(240, 100%, 5%);
+}
+.note-2{
+    font-size: x-small;
+    width: 150px;
+    color: hsl(236, 13%, 42%);
+}
+.new-topic{
+    color: white;
+}
+.number{
+    color: hsl(5, 85%, 63%);
+}
+
+
