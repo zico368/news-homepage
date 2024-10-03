@@ -37,7 +37,7 @@ a{
 }
 .class{
     display: flex;
-    padding-bottom: 50px;
+    margin-bottom: 50px;
 }
 .intro{
     display: flex;
@@ -45,34 +45,21 @@ a{
 .box-2{
     margin-left: 30px;
     width: 300px;
+    height: 360px;
     background-color: hsl(240, 100%, 5%);
     padding: 20px;
 }
-.box-1{
-    width:600px ; 
-    height: 400px;  
-    
 
-}
 .enter{
-    margin-left: 0px;
     width: 200px;
 
 }
 .note-1{
     font-size: small;
-    color: hsl(236, 13%, 42%);
-    width: 300px;   
-}
-.new{
-    color: hsl(35, 77%, 62%);
-}
-.web-3{
-    font-size: 40px;
-    margin-top: 10px;
-    height:300px ;
-    width: 300px;   
-    color: hsl(240, 100%, 5%);
+    color: hsl(236, 13%, 42%);  
+    margin-left: 100px; 
+    width: 300px;
+    height: 85px;
 }
 .read-more{
     width: 150px;
@@ -80,8 +67,19 @@ a{
     font-weight: bold;
     background-color: hsl(5, 85%, 63%);
     border: none;
+    margin-left: 100px;
     
 }
+.new{
+    color: hsl(35, 77%, 62%);
+}
+.web-3{
+    font-size: 40px;
+    margin-top: 10px;
+    width: 200px;   
+    color: hsl(240, 100%, 5%);
+}
+
 span{
     margin-left: 5px;
 }
@@ -91,10 +89,7 @@ span{
     color: hsl(236, 13%, 42%);
 }
 .list-1{
-    display: flex;  
-    
-    
-     
+    display: flex;     
 }
 .first{
     display: flex;
@@ -130,5 +125,85 @@ span{
 .number{
     color: hsl(5, 85%, 63%);
 }
+@media (max-width: 770px) {
+    .page{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    ul{
+        display: none;
+    }
+    .img-1{
+        width: 100% ;
+        height: 200px;
+    }
+    .intro{
+        flex-direction: column;   
+    }
+    .web-3{
+        font-size: 30px;
+        width: 200px;   
+    }
+    .class{flex-direction: column;
+    }
+    
+    .list-1{
+        flex-direction: column;
+    }
+    .note-1{
+        margin-left: 0;
+        margin-top: -20px;  
+        font-size: small;
+        color: hsl(236, 13%, 42%);  
+        width: 100%;  
+        height: 0px;   
+    }
+    .enter{
+        margin-left: 0px;
+        width: 100%;
+    
+    }
+    .read-more{
+        margin-top: 70px;
+        margin-left: 0;
+    }
+
+    .second,.third{
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    .box-2{
+        width: 100%;
+        padding: 5px;
+        margin-left: 0;
+        margin-top: 40px;
+        
+    }
+    .img-2{
+        height: 90px;
+    }
+    .info{
+        margin-left: 20px;
+        margin-top: 0px;
+    }
+
+    .web-4{
+        margin: 0;
+        margin-top: 10px;
+
+    }
+    .note-2{
+        margin: 0;
+        margin-top: 15px;
+    }
+    .number{
+        margin: 0;
+        margin-top: -5px;
+    }
+
+}
+
 
 
