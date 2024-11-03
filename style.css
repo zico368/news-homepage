@@ -163,23 +163,21 @@ span{
     .enter{
         margin-left: 0px;
         width: 100%;
-    
     }
     .read-more{
         margin-top: 70px;
         margin-left: 0;
     }
-
     .second,.third{
         margin-left: 0;
         margin-top: 20px;
     }
     .box-2{
-        width: 100%;
+        width: 95%;
         padding: 5px;
+        padding-left: 20px;
         margin-left: 0;
-        margin-top: 40px;
-        
+        margin-top: 40px;   
     }
     .img-2{
         height: 90px;
@@ -192,7 +190,6 @@ span{
     .web-4{
         margin: 0;
         margin-top: 10px;
-
     }
     .note-2{
         margin: 0;
